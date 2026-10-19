@@ -1,11 +1,9 @@
 import { About } from '@/components/about'
 import { Contact } from '@/components/contact'
 import { Education } from '@/components/education'
-import { Experience } from '@/components/experience'
 import { Hero } from '@/components/hero'
-import { Projects } from '@/components/projects'
 import { SiteHeader } from '@/components/site-header'
-import { Skills } from '@/components/skills'
+import { Work } from '@/components/work'
 
 export default function Page() {
   return (
@@ -20,10 +18,8 @@ export default function Page() {
       <main id="main">
         <Hero />
         <About />
-        <Experience />
-        <Projects />
+        <Work />
         <Education />
-        <Skills />
         <Contact />
       </main>
       <footer className="border-t border-border">

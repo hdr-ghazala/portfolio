@@ -28,7 +28,7 @@ const recognition = [
 
 export function Education() {
   return (
-    <section aria-labelledby="education-title" id="education" className="border-y border-border bg-muted/60">
+    <section aria-labelledby="education-title" id="education">
       <div className="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-28">
         <Reveal>
           <SectionHeading id="education-title" eyebrow="Education & Recognition" title="A foundation in media and business." />
@@ -37,7 +37,7 @@ export function Education() {
           <Reveal>
             <h3 className="mb-6 flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-foreground">
               <GraduationCap className="size-5 text-primary" aria-hidden />
-              Education
+              Degrees
             </h3>
             <ul className="divide-y divide-border border-y border-border">
               {education.map((item) => (
@@ -52,7 +52,7 @@ export function Education() {
           <Reveal delay={100}>
             <h3 className="mb-6 flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-foreground">
               <Award className="size-5 text-primary" aria-hidden />
-              Training & Recognition
+              Certificates, Training & Recognition
             </h3>
             <ul className="divide-y divide-border border-y border-border">
               {recognition.map((item) => (
